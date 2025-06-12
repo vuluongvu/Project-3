@@ -162,3 +162,52 @@ a {
 
     min-width: 104px;
 }
+
+/* Hero */
+
+.hero {
+    margin-top: 76px;
+    display: flex;
+}
+
+.hero__content {
+    width: 44%;
+}
+
+.hero__media {
+    flex-grow: 1;
+}
+
+.hero__title {
+    margin-top: 60px;
+    color: #FFF;
+    font-size: 7rem;
+    font-weight: 600;
+    line-height: 1.14;
+    letter-spacing: -1.4px;
+}
+
+.hero_description {
+    margin-top: 22px;
+    color: #C9D2DA;
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 1.66;
+    margin-bottom: 38px;
+}
+
+.hero__contact {
+    margin-left: 38px;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.66;
+}
+
+.hero__images {
+    margin-left: 113px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
