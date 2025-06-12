@@ -18,10 +18,37 @@ body {
     margin: 0 auto;
 }
 
+a {
+    text-decoration: none;
+}
+
+.btn {
+    --height: 60px;
+    display: inline-block;
+    text-align: center;
+    min-width: 205px;
+    color: #FFF;
+    background-color: #2E80CE;
+    height: var(--height);
+    padding: 0 20px;
+    line-height: var(--height);
+    border-radius: 99px;
+    font-weight: 400;
+    font-size: 1.6rem;
+    border: 1px solid #2E80CE;
+}
+
+.btn:hover {
+    opacity: 0.8;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
 /* Header */
 
 .header {
     min-height: 100vh;
+    padding-top: 30px;
     background-color: #10375C;
 }
 
@@ -71,4 +98,67 @@ body {
 .logo__brand--small {
     font-size: 1.2rem;
     font-weight: 200;
+}
+
+/* Header top */
+.header-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar__list {
+    display: flex;
+}
+
+.navbar__link {
+    padding: 4px 21px;
+    color: #C9D2DA;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+
+.navbar__item--active .navbar__link {
+    text-shadow: 1px 0 0 currentColor;
+    font-weight: 400;
+}
+
+.navbar__item--active .navbar__link::before {
+    top: -2px;
+    right: 6px;
+    content: "";
+    position: relative;
+    width: 6px;
+    height: 6px;
+    background-color: #FFF;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.navbar__link:hover,
+.navbar__item--active .navbar__link {
+    text-shadow: 1px 0 0 currentColor;
+    color: #FFF;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+}
+
+
+.action__sign-in {
+    color: #C9D2DA;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+
+.action__sign-in:first-child {
+    margin-right: 28px;
+}
+
+.action__sign-up {
+    --height: 44px;
+
+    min-width: 104px;
 }
