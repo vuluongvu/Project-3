@@ -384,3 +384,52 @@ a {
     transform: translateY(-16px);
     border-color: #2E80CE;
 }
+
+
+/* features */
+
+.features {
+    padding: 100px 0;
+    background: #F7FBFF;
+}
+
+.feature .container {
+    margin-top: 170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.feature .section-heading {
+    max-width: 470px;
+    margin-bottom: 18px;
+}
+
+.feature__content {
+    margin-left: 188px;
+}
+
+.feature .section-desc {
+    width: 468px;
+    margin-bottom: 38px;
+}
+
+.feature__media {
+    width: 48%;
+}
+
+.feature__img {
+    position: relative;
+    padding-bottom: 115px;
+}
+
+.feature__img-1 {
+    object-fit: cover;
+}
+
+.feature__img-2 {
+    position: absolute;
+    object-fit: cover;
+    left: 290px;
+    bottom: 0;
+}
