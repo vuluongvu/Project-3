@@ -328,7 +328,7 @@ a {
 
 /* works */
 
-.works {
+.work {
     padding: 100px 0;
     background: #f7fbff;
 }
@@ -341,9 +341,6 @@ a {
 
 }
 
-.work .section-heading {
-    margin-top: 100px;
-}
 
 .work .section-desc {
     margin-top: 18px;
