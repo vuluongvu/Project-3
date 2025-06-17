@@ -469,6 +469,10 @@ a {
     padding: 170px 0;
 }
 
+.dentist .btn {
+    margin-top: 38px;
+}
+
 .dentist__header {
     display: flex;
     align-items: center;
