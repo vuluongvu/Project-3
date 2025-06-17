@@ -470,6 +470,7 @@ a {
     max-width: 100%;
     object-fit: cover;
     height: 290px;
+    transition: 0.3s;
 }
 
 .dentist-item__name {
@@ -478,7 +479,7 @@ a {
     text-align: center;
     font-size: 1.6rem;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 1.75;
 }
 
@@ -488,4 +489,41 @@ a {
     font-size: 1.4rem;
     font-weight: 300;
     line-height: 1.85;
+}
+
+.dentist__control {
+    margin-top: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 18px;
+}
+
+.dentist__control-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    background: #fff;
+    outline: none;
+    border: 1px solid #575F66;
+    color: #575F66;
+    transition: 0.3s;
+}
+
+.dentist__control-btn:hover {
+    color: #fff;
+    border-color: #2E80CE;
+    background-color: #2E80CE;
+}
+
+.dentist__control-next-icon {
+    rotate: 180deg;
+}
+
+.dentist-item:hover .dentist-item__img {
+    transform: scale(1.2);
 }
