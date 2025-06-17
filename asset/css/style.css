@@ -527,3 +527,54 @@ a {
 .dentist-item:hover .dentist-item__img {
     transform: scale(1.2);
 }
+
+/* Install */
+
+.install {
+    margin-top: 85px;
+}
+
+.install__inner {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 70px;
+    border-radius: 4px;
+    background-color: #2E80CE;
+}
+
+.install__img {
+    display: block;
+    margin-top: -95px;
+    width: 284px;
+    height: 522px;
+    object-fit: cover;
+}
+
+.install__content {
+    max-width: 586px;
+}
+
+.install__heading,
+.install__desc {
+    color: #fff;
+}
+
+.install__row {
+    margin-top: 38px;
+    column-gap: 28px;
+    display: flex;
+}
+
+.install__btn-img {
+    padding: 0;
+    outline: none;
+    border: none;
+    background: transparent;
+    transition: 0.3s;
+}
+
+.install__btn-img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
