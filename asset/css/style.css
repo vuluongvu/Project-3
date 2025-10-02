@@ -12,6 +12,9 @@ body {
 }
 
 /* Global */
+
+
+
 .container {
     width: 1170px;
     max-width: calc(100% - 48px);
@@ -117,6 +120,10 @@ a {
     width: 3em;
     height: 3em;
     background-color: #2E80CE;
+}
+
+.logo__header {
+    margin-left: -230px;
 }
 
 .logo__circle::after {
