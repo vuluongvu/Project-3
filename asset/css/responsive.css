@@ -85,6 +85,7 @@
         padding: 14px 0;
         font-size: 18px;
         color: #10375C;
+        display: block;
     }
 
     .hero__img--second {
@@ -205,11 +206,42 @@
 /*Mobile */
 @media screen and (max-width: 767px) {
     .menu-drawer {
-        inset: 0 80% 0 0%;
+        inset: 0 65% 0 0%;
         padding: 30px;
     }
 
-    .hero__img {
-        max-width: 100%;
+    .hero__img.hero__img--first {
+        width: 200px;
+    }
+
+
+    .hero__title {
+        margin-top: -83px;
+        font-size: 3.8rem;
+    }
+
+
+    .hero {
+        margin-top: 60%;
+    }
+
+    .hero_btn {
+        display: none;
+    }
+
+    .hero_description {
+        width: 136px;
+    }
+
+    .hero__content {
+        margin-left: -45px;
+    }
+
+    .hero_btn--phone {
+        display: inline-block;
+        position: absolute;
+        top: 90%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 }

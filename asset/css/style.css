@@ -844,3 +844,7 @@ Add commentMore actions .appointment {
     font-weight: 400;
     line-height: 1.85;
 }
+
+.hero_btn--phone {
+    display: none;
+}
