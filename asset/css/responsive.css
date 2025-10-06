@@ -222,7 +222,7 @@
 
 
     .hero {
-        margin-top: 50%;
+        margin-top: 45%;
     }
 
     .hero_btn {
@@ -240,8 +240,134 @@
     .hero_btn--phone {
         display: inline-block;
         position: absolute;
-        top: 90%;
+        top: 92%;
         left: 50%;
         transform: translate(-50%, -50%);
     }
+
+    .service__desc {
+        max-width: 100%;
+    }
+
+    .services__list .service-item {
+        width: 100%;
+    }
+
+    .work .container .section-desc {
+        width: 100%;
+        text-align: center;
+    }
+
+    .work__list {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .services__list,
+    .btn-service {
+        margin-left: 0;
+    }
+
+    .service__btn {
+        margin-left: -50px;
+    }
+
+    .news__list {
+        display: grid;
+        grid-template-rows: 1fr;
+        gap: 20px;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .dentist__list-mobile {
+        grid-template-columns: 1fr;
+
+    }
+
+
+    .dentist-item__img-bg {
+        border-radius: 6px;
+        padding-top: 28px;
+        background-color: #EAF6FF;
+        overflow: hidden;
+    }
+
+    .dentist-item__img {
+        margin-left: 40px;
+        display: block;
+        max-width: 100%;
+        object-fit: cover;
+        height: 290px;
+        transition: 0.3s;
+    }
+
+    .feature__content--pad-mobile .section-heading--pad-mobile {
+        font-size: 4.6rem;
+    }
+
+    .section-heading {
+        max-width: 100%;
+        font-size: 5rem;
+        text-align: center;
+    }
+
+    .install__inner {
+        padding: 0 70px;
+        padding-bottom: 30px;
+        width: 100%;
+        display: grid;
+        grid-template-rows: 1fr;
+    }
+
+    .install__content {
+        text-align: center;
+        width: 100%;
+        margin-left: -14%;
+    }
+
+    .install__img {
+        margin-bottom: 30px;
+    }
+
+    .news__heading.section-heading {
+        font-size: 2.5rem;
+        text-align: left;
+    }
+
+    a.news__read-more {
+        font-size: 1.5rem;
+    }
+
+    .news__content {
+        width: 100%;
+    }
+
+    .appointment__heading {
+        max-width: 100%;
+        text-align: center;
+        font-size: 3rem;
+        display: inline-block;
+    }
+
+    .footer__column {
+        display: none;
+    }
+
+    .footer__column--mobile {
+        display: block;
+    }
+
+    .footer__column__form--mobile {
+        display: inline-block;
+    }
+
+    .footer__row {
+        display: flex;
+        flex-direction: column;
+    }
+
 }
