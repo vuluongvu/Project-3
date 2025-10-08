@@ -206,7 +206,7 @@
 /*Mobile */
 @media screen and (max-width: 767px) {
     .menu-drawer {
-        inset: 0 65% 0 0%;
+        inset: 0 45% 0 0%;
         padding: 30px;
     }
 
@@ -346,10 +346,14 @@
         width: 100%;
     }
 
+    .appointment__inner {
+        width: 100%;
+    }
+
     .appointment__heading {
         max-width: 100%;
         text-align: center;
-        font-size: 3rem;
+        font-size: 5rem;
         display: inline-block;
     }
 
